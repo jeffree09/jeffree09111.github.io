@@ -1,3 +1,3 @@
-# THis WEB can help u FIND-TOILET！
+# This WEB can help u FIND-TOILET！
 find-toilet
-welcome to our's website!
+ welcome to our's website!
