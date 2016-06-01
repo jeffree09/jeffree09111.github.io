@@ -38,10 +38,10 @@
          var indoorMap;
          AMap.plugin(['AMap.IndoorMap'], function() {
         var indoorMap = new AMap.IndoorMap({alwaysShow:true});
-        //设定在没有矢量底图的时候也显示，默认情况下室内图仅在有矢量底图的时候显示
+        
         var map = new AMap.Map('mapDiv', {
             resizeEnable: true,
-            showIndoorMap:false,//隐藏地图自带的室内地图图层
+            showIndoorMap:false,
             layers:[indoorMap,new AMap.TileLayer()]
          });
         indoorMap.showIndoorMap('B000A856LJ');
